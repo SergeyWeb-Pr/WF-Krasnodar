@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EACb,MAAM,EAAE,MAAM;CACjB",
+    "sources": [
+        "slider__reviews.scss"
+    ],
+    "names": [],
+    "file": "slider__reviews.css"
+}

@@ -1,0 +1,12 @@
+.last__section {
+  padding: 150px 0;
+}
+.last__section_subtitle {
+  margin-bottom: 10px;
+}
+.last__section_title {
+  margin-bottom: 60px;
+}
+.last__section_pretext {
+  display: flex;
+}

@@ -1,0 +1,105 @@
+.last__section {
+    padding: 133px 0 150px 0;
+        &_subtitle {
+            margin-bottom: 10px;
+            // font-size: 14px;
+            letter-spacing: -1.2px;
+
+            &:before {
+                content: "";
+                display: inline-block;
+                vertical-align: middle;
+                width: 30px;
+                height: 1px;
+                background-color: #342F3F;
+                margin-right: 10px;
+            }
+        }
+        &_title {
+            margin-bottom: 60px;
+            max-width: 600px;
+            letter-spacing: 2.2px;
+        }
+        &_pretext {
+            display: flex;
+            margin-bottom: 82px;
+            margin-left: 5px;
+
+            &-item-one {
+                max-width:159px;
+                margin-left: 136px;
+            }
+            &-item-two {
+                max-width:107px;
+                margin-left: 81px;
+            }
+            &-item-three {
+                max-width:203px;
+                margin-left: 133px;
+            }
+        }
+        &_pretext-wrapper {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        &__wrapper {
+            display: flex;
+        }
+        
+
+        &_block,
+        &_block-two {
+            display: flex;
+            flex-direction: column;
+            max-width: 530px;
+
+            &-text {
+                display: flex;                
+            }
+
+            &-text p {
+                line-height: 1.5;
+            }
+
+            &-text p:not(:last-child) {
+                margin-bottom: 24px;
+            }
+        }
+        &_block-two {
+            margin-left: 119px;
+        }
+
+        &_img-two {
+            margin-bottom: 40px;
+        }
+        &_img-one--hidden, &_img-two--hidden {
+            display: none;
+        }
+}
+
+.last__section_img-one {
+    display: none;
+}
+.one--hidden {
+    margin-top: 40px;
+    background-image: url(./../../img/jpg/Frame10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.pretext__icon {
+    margin-bottom: 20px;
+    fill: #B796F5;
+}
+
+
+.pretext__icon_text {
+    font-family: 'Montserrat-Medium';
+}
+
+
+

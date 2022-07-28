@@ -1,0 +1,107 @@
+.footer {
+    padding: 150px 0 70px 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    
+    &__logo {
+        width: 113px;
+        margin-top: 15px;
+        margin-left: 21px;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        &-content {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        &_content-block {
+            // display: flex;
+            // justify-content: space-between;
+            // width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+
+    &__title {
+        text-align: end;
+        margin-bottom: 40px;
+        font-size: 40px;
+        margin-right: 37px;
+    }
+
+    &__link-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-left: 364px;
+        width: 185px;   
+        
+        & a {
+            line-height: 1.3;
+        }
+
+        & a {
+            font-family: 'Montserrat-Light';
+        }
+
+        & a:not(:last-child) {
+            margin-bottom: 20px;
+        }
+    }
+
+    &__contact {
+        display: flex;
+        flex-direction: column;
+        width: 265px;
+        margin-left: 194px;  
+
+        & a:not(:last-child) {
+            margin-bottom: 30px;
+            font-family: 'Montserrat-Light';
+        }
+        & a:hover {
+            margin-bottom: 30px;
+            font-family: 'Montserrat-Medium';
+        }
+        & p {
+            line-height: 1.5;
+        }
+        & p:not(:last-child) {
+            margin-bottom: 30px;
+        }
+    }
+
+    &__link {
+        color: #342F3F;
+        transition: color .2s ease;
+
+        &-phone {
+            font-size: 14px;
+        }
+
+        &:hover {
+            font-family: 'Montserrat-Medium';
+        }
+
+        &--mail {
+            font-family: 'Montserrat-Medium';
+        }
+        
+    }
+    
+    
+
+    &__copirate {
+        margin-top: 124px;
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+

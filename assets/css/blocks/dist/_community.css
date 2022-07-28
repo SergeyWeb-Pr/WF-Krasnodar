@@ -1,0 +1,65 @@
+.community {
+  padding: 135px 0 150px 0;
+}
+.community__subtitle:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 1px;
+  background-color: #342F3F;
+  margin-right: 10px;
+}
+.community__title {
+  max-width: 598px;
+  margin: 10px 0 60px 0;
+}
+.community__wrapper {
+  display: flex;
+}
+.community__block-text {
+  display: flex;
+  max-width: 512px;
+}
+.community__block-text p {
+  line-height: 1.5;
+}
+.community__block-text .grad-line {
+  display: block;
+}
+.community__block-text--two {
+  margin-left: 134px;
+}
+.community__human {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 83px;
+}
+.community__human-name {
+  font-family: "Montserrat-Medium";
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin: 19px 0 10px 0;
+  transition: color 0.2s linear;
+}
+.community__human-position {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  transition: color 0.2s linear;
+}
+.community_btn {
+  display: block;
+  margin: 78px auto 80px auto;
+  width: 277px;
+  text-align: center;
+}
+.community__cart:hover .community__human-name {
+  color: #B796F5;
+}
+.community__cart:hover .community__human-position {
+  color: #B796F5;
+}

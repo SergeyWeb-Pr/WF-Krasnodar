@@ -1,0 +1,118 @@
+.preview {
+  background: #050505;
+  padding: 130px 0 150px 0;
+}
+
+.preview__subtitle {
+  color: #fff;
+  font-size: 14px;
+}
+
+.preview__subtitle::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 1px;
+  background-color: #fff;
+  margin-right: 10px;
+}
+
+.preview__title {
+  margin-left: -8px;
+  font-family: 'Montserrat-Light';
+  font-size: 60px;
+  line-height: 79px;
+  letter-spacing: 0.03em;
+  padding: 10px 0 58px 0;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(122.06deg, rgba(238, 195, 214, 0) 65.4%, #EDCFF1 97.6%), linear-gradient(70.34deg, #C5F0F9 4.4%, #F2EDC3 36.36%, #FAD4E7 47%, #BAECF3 61.14%, #C8B1FC 97.03%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.preview__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.preview__block_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 531px;
+  font-family: 'Montserrat-Regular';
+  line-height: 150%;
+}
+
+.preview__block_text p {
+  color: #fff;
+}
+
+.preview__block_text-1 {
+  margin-right: 118px;
+  height: 120px;
+}
+
+.preview__block_text-2 {
+  max-width: 520px;
+}
+
+.preview__creeping_line {
+  width: 100%;
+  margin-top: 64px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.preview__creeping_line span::after {
+  content: "";
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-left: 54px;
+  background-color: #F2D7F1;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+.preview__creeping_line span {
+  color: #F2D7F1;
+  font-size: 60px;
+  padding-right: 50px;
+  display: inline-block;
+  -webkit-animation: preview__creeping_line 10s infinite linear;
+          animation: preview__creeping_line 10s infinite linear;
+  animation: preview__creeping_line 10s infinite linear;
+}
+
+@-webkit-keyframes preview__creeping_line {
+  0% {
+    -webkit-transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translate(-100%, 0);
+  }
+}
+
+@keyframes preview__creeping_line {
+  0% {
+    -webkit-transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translate(-100%, 0);
+  }
+}
+
+@keyframes preview__creeping_line {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translate(-100%, 0);
+            transform: translate(-100%, 0);
+  }
+}
+/*# sourceMappingURL=preview.css.map */

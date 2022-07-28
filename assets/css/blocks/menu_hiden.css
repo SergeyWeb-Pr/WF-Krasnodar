@@ -1,0 +1,25 @@
+.menu__hidden {
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+}
+
+.menu__hidden-none {
+  display: none;
+  padding: 150px 0;
+}
+
+.submenu li {
+  margin-bottom: 40px;
+}
+
+.menu__closet-btn {
+  stroke: #000;
+}
+
+.menu__closet-btn:hover {
+  stroke: #B796F5;
+}
+/*# sourceMappingURL=menu_hiden.css.map */

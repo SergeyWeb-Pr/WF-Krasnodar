@@ -1,0 +1,78 @@
+.last__section {
+  padding: 133px 0 150px 0;
+}
+.last__section_subtitle {
+  margin-bottom: 10px;
+  font-size: 14px;
+  letter-spacing: -1.2px;
+}
+.last__section_subtitle:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 1px;
+  background-color: #342F3F;
+  margin-right: 10px;
+}
+.last__section_title {
+  margin-bottom: 60px;
+  max-width: 600px;
+  letter-spacing: 2.2px;
+}
+.last__section_pretext {
+  display: flex;
+  margin-bottom: 82px;
+  margin-left: 5px;
+}
+.last__section_pretext-item-one {
+  max-width: 159px;
+  margin-left: 136px;
+}
+.last__section_pretext-item-two {
+  max-width: 107px;
+  margin-left: 81px;
+}
+.last__section_pretext-item-three {
+  max-width: 203px;
+  margin-left: 133px;
+}
+.last__section_pretext-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.last__section__wrapper {
+  display: flex;
+}
+.last__section_block, .last__section_block-two {
+  display: flex;
+  flex-direction: column;
+  max-width: 530px;
+}
+.last__section_block-text, .last__section_block-two-text {
+  display: flex;
+}
+.last__section_block-text p, .last__section_block-two-text p {
+  line-height: 1.5;
+}
+.last__section_block-text p:not(:last-child), .last__section_block-two-text p:not(:last-child) {
+  margin-bottom: 24px;
+}
+.last__section_block-two {
+  margin-left: 119px;
+}
+.last__section_img-one {
+  margin-top: 40px;
+}
+.last__section_img-two {
+  margin-bottom: 40px;
+}
+
+.pretext__icon {
+  margin-bottom: 20px;
+  fill: #B796F5;
+}
+
+.pretext__icon_text {
+  font-family: "Montserrat-Medium";
+}

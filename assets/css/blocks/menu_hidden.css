@@ -1,0 +1,91 @@
+.menu__hidden {
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 100px 0 150px 0;
+  opacity: 1;
+  -webkit-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+}
+
+.menu__hidden-btn {
+  display: block;
+  margin-left: auto;
+  background: none;
+  border: none;
+  outline: none;
+  stroke: #000;
+}
+
+.menu__hidden-btn:hover {
+  stroke: #B796F5;
+}
+
+.menu__hidden-none {
+  display: none;
+  opacity: 0;
+}
+
+.submenu {
+  position: relative;
+}
+
+.submenu__list {
+  width: 320px;
+  font-family: 'Montserrat-Regular';
+  font-size: 20px;
+  color: #000;
+}
+
+.submenu__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Montserrat-Regular';
+  font-size: 20px;
+  color: #000;
+  -webkit-transition: color .1s ease-in-out;
+  transition: color .1s ease-in-out;
+}
+
+.submenu__list:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.pod_submenu {
+  position: absolute;
+  width: 350px;
+  margin-left: 30%;
+  top: 0;
+}
+
+.pod_submenu-link {
+  font-size: 16px;
+}
+
+.pod_submenu-link:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.submenu_link-4 {
+  -webkit-transition: color .1s ease-in-out;
+  transition: color .1s ease-in-out;
+}
+
+.hover_color {
+  color: #B796F5;
+}
+
+.hover_color::after {
+  content: "";
+  display: block;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 35px;
+  height: 10px;
+  background-image: url(./../img/svg/btn_arrow.svg);
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=menu_hidden.css.map */

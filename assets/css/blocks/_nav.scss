@@ -1,0 +1,100 @@
+.nav {
+    position: relative;
+    top: 0;
+    z-index: 10;
+}
+
+.nav__wrapper {
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+}
+
+.logo {
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+.nav-row {
+    text-align: center;
+    width: 525px;
+    max-width: 525px;
+    margin-left: 135px;
+    margin-top: 2px;
+}
+.nav-phone {
+    font-family: 'Mazzard-H-Medium';
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #342F3F;
+    transition: color .2s ease-in-out;
+}
+.nav-phone:hover {
+    color: #B796F5;
+}
+
+.nav-item {
+    position: relative;
+    // border-bottom: 10px solid transparent;
+    // transition: border-bottom 0.2s ease-in;
+}
+
+.nav-item:hover:after {
+    content: "";
+    border-bottom: 10px solid #B796F5;
+    position: absolute;
+    top: 28px;
+    left: 0;
+    width: 100%;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-family: 'Montserrat-medium';
+    color: #342F3F;
+    padding: 0;
+}
+.nav__menu-btn {
+    position: relative;
+    background-color: transparent;
+    width: 147px;
+    height: 51px;
+    border-radius: 30px;
+    border: 2px solid #B796F5;
+    margin-left: 190px;
+    font-family: 'Montserrat-Medium';
+    font-size: 16px;
+    line-height: 20px;
+    padding-right: 28px;
+    padding-top: 2px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.nav__menu-btn:hover {
+    background-color: #B796F5;
+    color: #fff;
+}
+
+.nav__menu-btn::before {
+    position: absolute;
+    content: "";
+    display: block;
+    background-image: url(./../../img/svg/nav-arrow.svg);
+    background-repeat: no-repeat;
+    transform: translate(93px, 7px);
+    width: 17px;
+    height: 10px;
+}
+.nav__menu-btn:hover:before {
+    position: absolute;
+    content: "";
+    display: block;
+    background-image: url(./../../img/svg/nav-arrow-w.svg);
+    background-repeat: no-repeat;
+    transform: translate(93px, 7px);
+    width: 17px;
+    height: 10px;
+}

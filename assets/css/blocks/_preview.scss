@@ -1,0 +1,83 @@
+.preview {
+    background: #050505;
+    padding: 130px 0 150px 0;
+
+    &__subtitle {
+        color: #fff;
+        // font-size: 14px;
+    }
+    &__subtitle::before {
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        width: 30px;
+        height: 1px;
+        background-color: #fff;
+        margin-right: 10px;
+    }
+
+    &__title {
+        margin-left: -8px;
+        font-family: 'Montserrat-Light';
+        font-size: 60px;
+        line-height: 79px;
+        letter-spacing: 0.03em;
+        padding: 10px 0 58px 0;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    &__block {
+        display: flex;
+        
+        &_text {
+            display: flex;
+            max-width: 530px;
+            font-family: 'Montserrat-Regular';
+            line-height: 150%;
+            
+
+            & p {
+                color: #fff;
+            }
+        }
+        &_text-1 {
+            margin-right: 118px;
+        }
+        &_text-2 {
+            max-width: 520px;
+        }
+    }
+    
+    &__creeping_line {
+        width:100%;
+        margin-top: 64px;
+        white-space:nowrap;
+        overflow:hidden;
+    }
+    &__creeping_line span::after {
+        content: "";
+        display: inline-block;
+        margin-bottom: 5px;
+        margin-left: 54px;
+        background-color:#F2D7F1;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+    }
+    &__creeping_line span{
+        color:#F2D7F1;
+        font-size:60px;
+        padding-right: 50px;
+        display:inline-block;
+        animation: preview__creeping_line 10s infinite linear;
+        animation: preview__creeping_line 10s infinite linear;
+    }
+    @keyframes preview__creeping_line {
+        0%{-webkit-transform: translate(0, 0);}
+        100%{-webkit-transform: translate(-100%, 0);}
+        }
+        @keyframes preview__creeping_line{
+        0%{transform: translate(0, 0);}
+        100%{transform: translate(-100%, 0)}
+        }
+}

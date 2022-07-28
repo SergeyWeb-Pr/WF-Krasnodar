@@ -1,0 +1,126 @@
+.portfolio {
+  display: flex;
+  width: 100%;
+  margin-bottom: 165px;
+}
+.portfolio__blok {
+  display: flex;
+  justify-content: center;
+  margin-top: 34px;
+  column-gap: 35px;
+  flex-wrap: wrap;
+}
+.portfolio__blok_link {
+  max-height: 668px;
+  margin-bottom: 80px;
+}
+.portfolio__img-bg--1 {
+  height: 526px;
+  background-color: #F2EDC3;
+}
+.portfolio__img-bg--2 {
+  height: 526px;
+  background-color: #F2D7F1;
+}
+.portfolio__img-bg--3 {
+  height: 526px;
+  background-color: #C5F0F9;
+}
+.portfolio__img-bg--4 {
+  height: 526px;
+  background-color: #C5F0F9;
+}
+.portfolio__img-bg--5 {
+  height: 526px;
+  background-color: #DCCDFF;
+}
+.portfolio__img-bg--6 {
+  height: 526px;
+  background-color: #F2D7F1;
+}
+.portfolio__block-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 365px;
+  border-bottom: 1px solid #E5E5E5;
+}
+.portfolio__block_descr, .portfolio__block_descr-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 7px 0;
+}
+.portfolio__block_deskr-text {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.portfolio__block_deskr-text p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #484848;
+}
+.portfolio__block_descr-num-1 {
+  width: 99px;
+  height: 80px;
+  margin: 10px 0px 10px 0;
+  margin-right: 23px;
+}
+.portfolio__block_descr-num-2 {
+  width: 103px;
+  height: 80px;
+  margin: 10px 0px 10px 0;
+  margin-right: 16px;
+}
+.portfolio__block_descr-num-3 {
+  width: 104px;
+  height: 70px;
+  margin: 29px 0px 0px 0;
+  margin-right: 18px;
+}
+.portfolio__block_descr-num-4 {
+  width: 111px;
+  height: 86px;
+  margin: 20px 0px 0px 0;
+  margin-right: 14px;
+}
+.portfolio__block_descr-num-5 {
+  width: 109px;
+  height: 70px;
+  margin: 29px 0px 0px 0;
+  margin-right: 13px;
+}
+.portfolio__block_descr-num-6 {
+  width: 110px;
+  height: 79px;
+  margin: 0px 0px 20px 0;
+  margin-right: 14px;
+}
+.portfolio__btn {
+  width: 220px;
+  margin: 0 auto;
+  margin-top: 17px;
+}
+.portfolio_text-wrapper--hidden {
+  display: none;
+}
+
+.card-2 {
+  margin-top: 80px;
+}
+
+.card-3 {
+  position: relative;
+  z-index: 15;
+  margin-top: -80px;
+}
+
+.card-4 {
+  margin-top: -80px;
+}
+
+.card-6 {
+  margin-top: -161px;
+}

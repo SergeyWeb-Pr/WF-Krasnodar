@@ -1,0 +1,177 @@
+.slider__reviews {
+    // height: 1046px;
+    padding: 150px auto;
+}
+.song-wrap {
+    background: #eaf0f3;
+    width: 100vw;
+    // height: 100vh;
+    overflow: hidden;
+
+    .inner {
+        display: flex;
+        width: 1400px;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .song-header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-weight: 800;
+        margin-top: 100px;
+        align-items: center;
+
+        .title {
+            color: #4eafde;
+            font-size: 45px;
+        }
+
+        .more {
+            font-size: 18px;
+        }
+    }
+
+    .song-contents {
+        margin-top: 50px;
+
+        .slider-wrap {
+            ul {
+                margin: 0;
+                padding: 0;
+                position: relative;
+                height: 400px;
+                z-index: 0;
+
+                li {
+                    position: absolute;
+                    width: 100%;
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                }
+            }
+
+            .slide {
+                transition: all 0.5s;
+
+                &.on {
+                    .info-box {
+                        opacity: 1;
+                        transform: translateY(0%);
+                    }
+
+                    .album {
+                        // transform:;
+                        transform: translateX(0%) rotate(0deg) !important;
+                    }
+                }
+
+                &.prev {
+                    .album {
+                        transform: translateX(100%) !important;
+                        opacity: 0;
+                    }
+                }
+
+                &:nth-child(2) {
+                    .album {
+                        transform: rotate(5deg);
+                    }
+                }
+
+                &:nth-child(3) {
+                    .album {
+                        transform: rotate(-5deg);
+                    }
+                }
+
+                display: flex;
+                justify-content: space-between;
+
+                .info-box {
+                    // visibility:hidden;
+                    height: 100%;
+                    background: #eaf0f3;
+                    font-weight: 800;
+                    font-size: 50px;
+                    width: 500px;
+                    opacity: 0;
+                    // transform:trans
+                    transform: translateY(10%);
+                    transition: all 0.5s;
+                }
+
+                .album {
+                    transition: all 0.5s;
+
+                    img {
+                        width: 400px;
+                        height: 400px;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+                    }
+                }
+            }
+        }
+
+        .btn-box {
+            // border:1px solid red;
+            z-index: 1;
+            display: flex;
+
+            .nav-box {
+                // margin-left:10px;
+                display: flex;
+
+                .btn {
+                    margin: 0 5px;
+
+                    &.prev.first {
+                        color: #aaa;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//  process
+.process-bar {
+    width: 100px;
+    height: 1px;
+    background: #aaa;
+
+    .process {
+        width: 1%;
+        height: 1px;
+        background: blue;
+        transition: all 3s;
+
+        &.on {
+            // width:100%;
+            animation: progress ease 3s;
+            animation-iteration-count: infinite;
+        }
+
+        &.pause {
+            animation-play-state: paused;
+        }
+
+        &.restart {
+            // width:100%;
+            animation: progress ease-out 3s;
+            animation-iteration-count: infinite;
+        }
+    }
+}
+
+@keyframes progress {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}

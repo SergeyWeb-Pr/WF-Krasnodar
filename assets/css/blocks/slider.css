@@ -1,0 +1,142 @@
+.slider {
+  padding: 128px 0 208px 0px;
+}
+
+.slider__subtitle {
+  font-size: 14px;
+}
+
+.slider__subtitle:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 1px;
+  background-color: #342F3F;
+  margin-right: 10px;
+}
+
+.slider__title {
+  margin-top: 11px;
+  margin-bottom: 60px;
+}
+
+.slider__item-subtitle {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.slider__item-title {
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.slider__item-text {
+  font-family: 'Montserrat-Light';
+  line-height: 1.5;
+}
+
+.slider__item-subtitle,
+.slider__item-title,
+.slider__item-text {
+  color: #fff;
+}
+
+.swiper-container {
+  position: relative;
+  margin-left: 19%;
+}
+
+.slide {
+  width: 580px;
+  height: 580px;
+  padding: 281px 0px 0 45px;
+}
+
+.slide:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(52, 47, 63, 0.6)), to(rgba(52, 47, 63, 0.7))), url(.jpg);
+  background: linear-gradient(180deg, rgba(52, 47, 63, 0.6) 0%, rgba(52, 47, 63, 0.7) 100%), url(.jpg);
+  opacity: 0.8;
+}
+
+.slider__wrapper {
+  max-width: 465px;
+  position: relative;
+  z-index: 10;
+}
+
+.swiper-slide-1 {
+  background-image: url(./../img/slider__img/slide1.jpg);
+  background-position: center;
+  background-size: cover;
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
+}
+
+.swiper-slide-2 {
+  background-image: url(./../img/slider__img/slide2.jpg);
+  background-position: center;
+  background-size: cover;
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
+}
+
+.swiper-slide-3 {
+  background-image: url(./../img/slider__img/slide3.jpg);
+  background-position: center;
+  background-size: cover;
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: static;
+  z-index: 15;
+  color: #342F3F;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px;
+}
+
+.slider__nav-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slider__nav {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  top: 70px;
+  width: 217px;
+}
+
+.swiper-pagination-current,
+.swiper-pagination-total {
+  font-size: 18px;
+}
+/*# sourceMappingURL=slider.css.map */

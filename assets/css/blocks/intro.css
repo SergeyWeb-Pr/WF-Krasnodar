@@ -1,0 +1,139 @@
+.intro {
+  padding-top: 130px;
+  padding-bottom: 57px;
+  background: #050505;
+}
+
+.intro__subtitle {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.intro__title {
+  margin-bottom: 60px;
+  max-width: 927px;
+  font-size: 60px;
+  line-height: 73px;
+  letter-spacing: 0.03em;
+}
+
+.intro__text_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.intro__text_block p {
+  color: #fff;
+}
+
+.intro__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  max-width: 520px;
+  line-height: 1.5;
+}
+
+.intro__text-two {
+  margin-left: 71px;
+}
+
+.intro__text_item {
+  margin-bottom: 90px;
+  line-height: 1.5;
+}
+
+.intro__text-bullet {
+  height: 40px;
+}
+
+.intro__text-progress {
+  margin-bottom: 21px;
+  width: 60px;
+}
+
+.intro__text_block-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.intro__text_item {
+  position: relative;
+  max-width: 355px;
+}
+
+.intro__text_item p {
+  color: #fff;
+}
+
+.intro__text_item:hover .intro-hover {
+  opacity: 0.5;
+}
+
+.intro__text_item-wrapper {
+  position: relative;
+  z-index: 10;
+}
+
+.intro-hover {
+  position: absolute;
+  -webkit-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+  top: 40px;
+  left: -50px;
+  z-index: 5;
+  opacity: 0;
+}
+
+.color-1 {
+  background: #B7DCFF;
+  font-family: 'Montserrat-Medium';
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.color-2 {
+  background: #FEC3D5;
+  font-family: 'Montserrat-Medium';
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.color-3 {
+  background: #F2EDC3;
+  font-family: 'Montserrat-Medium';
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.color-4 {
+  background: #B796F5;
+  font-family: 'Montserrat-Medium';
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.color-5 {
+  background: #BAECF3;
+  font-family: 'Montserrat-Medium';
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.color-6 {
+  background: #DCCDFF;
+  font-family: 'Montserrat-Medium';
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*# sourceMappingURL=intro.css.map */

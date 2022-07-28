@@ -1,0 +1,85 @@
+@media (min-width: 1440px) and (max-width: 1919px) {
+    .logo__img {
+        width: calc(190px + (183 - 190) * ( (100vw - 1440px) / ( 1919 - 1440) ));    
+        height: calc(43px + (57 - 43) * ( (100vw - 1440px) / ( 1919 - 1440) ));    
+    }
+
+    .nav-row {
+        margin-right: calc(100px + (135 - 100) * ( (100vw - 1440px) / ( 1919 - 1440) ));    
+    }
+}
+
+@media (min-width: 1090px) and (max-width: 1439px) {
+
+    .footer__link-wrapper {
+        margin-left: calc(195px + (276 - 195) * ( (100vw - 1090px) / ( 1439 - 1090) )) !important;    
+    }
+
+    .form__social {
+        margin-left: calc(50px + (0 - 50) * ( (100vw - 1090px) / ( 1439 - 1090) )) !important;    
+    }
+
+}
+
+@media (min-width: 931px) and (max-width: 1160px) {
+
+    .swiper-cards .swiper-slide {
+        width: calc(300px + (418 - 300) * ( (100vw - 931px) / ( 1160 - 931) )) !important;    
+    }
+
+    .swiper {
+        max-width: calc(334px + (424 - 365) * ( (100vw - 931px) / ( 1160 - 931) )) !important;    
+    }
+
+    /* .container_one {
+        padding-right: calc(0px + (144 - 0) * ( (100vw - 931px) / ( 1160 - 931) )) !important;    
+    } */
+
+    /* .container_two {
+        padding-right: calc(0px + (144 - 0) * ( (100vw - 931px) / ( 1160 - 931) )) !important;    
+    } */
+
+    .slider_reviews_left {
+        margin-right: calc(50px + (196 - 50) * ( (100vw - 931px) / ( 1160 - 931) )) !important; 
+    }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+
+    /* .header-btn_subservice {
+        padding-left: calc(70px + (160 - 70) * ( (100vw - 320px) / ( 500 - 320) )) !important;    
+        padding-right: calc(70px + (160 - 70) * ( (100vw - 320px) / ( 500 - 320) )) !important;    
+    } */
+
+    /* .portfolio__btn_subservice {
+        padding-left: calc(52px + (144 - 57) * ( (100vw - 320px) / ( 500 - 320) )) !important;    
+        padding-right: calc(57px + (144 - 57) * ( (100vw - 320px) / ( 500 - 320) )) !important;  
+    } */
+
+    .footer__logo {
+        margin-left: calc(90px + (143 - 90) * ( (100vw - 320px) / ( 375 - 320) )) !important;    
+    }
+
+
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+
+    .p_btn_two {
+        margin-left: calc(-190px + (-92 - -155) * ( (100vw - 320px) / ( 375 - 320) )) !important;    
+    }
+
+    .footer__logo {
+        margin-left: calc(90px + (143 - 90) * ( (100vw - 320px) / ( 375 - 320) )) !important;    
+    }
+
+
+}
+
+@media (min-width: 500px) and (max-width: 700px) {
+
+    .p_btn_two {
+        margin-left: calc(-200px + (0 - -200) * ( (100vw - 500px) / ( 375 - 500) )) !important;    
+    }
+
+}
