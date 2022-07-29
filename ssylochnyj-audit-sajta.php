@@ -169,45 +169,91 @@ get_header();
     </div>
 </section>
 
-<section class="slider padding_top_130 structure internet_magazin padding_bottom_150 internet_mag vizitki_media">
-    <div class="container container_one">
-        <div class="structure__blocks internet_magazin_structure_block">
-            <div class="structure__block medical_structure_block">
-                <p class="slider__subtitle p2_black padding_bottom_10">этапы</p>
-                <h2 class="h2_black">Алгоритм действий при выполнении комплексного анализа аудита сайта
+<section class="padding_top_130 bitrix_media padding_bottom_media bitrix_media-correct bitrix_media-cor bitrix_media-cordop ssylochnyj_correct">
+    <div class="container">
+        <p class="product__list-subtitle p2_black">шаги</p>
+        <h2 class="h2_black subservice_task-title padding_bottom_60">Этапы аудита</h2>
+        <div class="subservice_task_wrapper">
+            <div class="subservice_task_left subservice_task_left_new">
+                <div class="subservice_task_item">
+                    <p class="p7 subservice_task_number p7_position p7-color8">01.</p>
+                    <div class="subservice_task-wrapper">
+                        <div class="subservice_task_item-title">
+                            Анализ исходящих ссылок.
+                        </div>
+                        <div class="subservice_task_item">
+                            Сайт несет большую ответственность не только за контент на страницах. Сюда входят также ссылки. Именно поэтому и нужен аудит ссылочной массы сайта.
+                        </div>
+                    </div>
+                </div>
 
-                </h2>
-                <ul>
-                    <li class="top30">Технический аудит;
-                        <p class="static_list-p">Это основной аспект для продвижения бизнеса на рынке рекламы. Технический аудит обеспечивает стабильную работу проекта без которой продвижение невозможно. Название говорит само за себя, на этом этапе недопустимы ошибки и просчеты. Процесс технического аудита подразумевает оценку ресурса на всех уровнях с технической стороны: проверяется работа сервера, скорость загрузки страниц, работа модулей и плагинов, навигации, кроссбраузерность и т.д.
-                        </p>
-                        <span class="border-black"></span>
-                    </li>
-                    <li class="structure-list__2">Анализ конкурентов;
-                        <p class="static_list-p">Наш специалист подробно изучает ключи конкурентов из ТОП-10, и то, как их предложение соответствует потребностям и запросам целевой аудитории, ТИЦ, структура и контент страниц, а также сравнивается ссылочная стратегия для разработки новой эффективной стратегии продвижения.
-                        </p>
-                        <span class="border-black"></span>
-                    </li>
-                    <li class="structure-list__3 structure-list__6-top30">Анализ юзабилити;
-                        <p class="static_list-p">Более творческий этап работы, подразумевающий оценку элементов сайта (дизайна сайта, структурное оформление страниц, оценка юзабилити и т. д.), все это напрямую влияет на уровень доверия пользователей. Зная пути решения проблем, Вы поймете, как избавиться от недоверия пользователей и привлечь новых клиентов.
-                        </p>
-                        <span class="border-black"></span>
-                    </li>
-                    <li class="structure-list__4 structure-list__6-top30">Отчеты с результатами работы.
-                        <p class="static_list-p">Заключительный этап работы специалиста, на котором Вы получаете подробный отчет со всеми найденными ошибками и недочетами, аналитикой эффективности и рекомендациями по совершенствованию сайта повышению видимости в поисковых системах.
-                        </p>
-                        <span class="border-black"></span>
-                    </li>
-                </ul>
+                <div class="subservice_task_item">
+                    <p class="p7 subservice_task_number p7_position p7-color2">02.</p>
+                    <div class="subservice_task-wrapper">
+                        <div class="subservice_task_item-title">
+                            Анализ ссылочных доноров.
+                        </div>
+                        <div class="subservice_task_item">
+                            После наведения порядка в исходящих ссылках, специалист приступает к следующему этапу – это анализ входящих. Для начала следует узнать, кто ссылается на Вас.
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <div class="product__list_column-2 product__list_column-2_subservice">
-                <div class="product__list_column--img margin_bottom_50 product__list_column--img_subservice height-auto internet_mag_product">
-                    <img src="http://test.loc/wp-content/themes/WebFocus%20-%20Krasnodar/assets/img/png/gradient41.png" alt="img" class="internet_mag_product_img">
-                    <img src="http://test.loc/wp-content/themes/WebFocus%20-%20Krasnodar/assets/img/png/gradient41-1090.png" alt="img" class="internet_mag_product_img">
-                    <img src="http://test.loc/wp-content/themes/WebFocus%20-%20Krasnodar/assets/img/png/gradient41-768.png" alt="img" class="internet_mag_product_img">
-                    <img src="http://test.loc/wp-content/themes/WebFocus%20-%20Krasnodar/assets/img/png/gradient41-375.png" alt="img" class="internet_mag_product_img">
+
+            <div class="subservice_task_right subservice_task_right_new">
+                <div class="subservice_task_item">
+                    <p class="p7 subservice_task_number padding_bottom_40 p7_position p7-color5">03.</p>
+                    <div class="subservice_task-wrapper">
+                        <div class="subservice_task_item-title">
+                            Анализ анкоров.
+                        </div>
+                        <div class="subservice_task_item ">
+                            Если сайт ссылается на авторитетные ресурсы, Google все равно может расценить его, как переспамленный. Поэтому при ссылочном аудите специалист так же уделяет много внимания анкорам, чтобы оценить, достаточно ли их.
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
+        <div class="subservice_rules_wrapper subservice_rules_wrapper_footer grid_gap_40">
+            <div class="subservice_rules_wrapper_flex">
+                <div class="grad-line margin_right_20_500"></div>
+                <div class="subservice_rules_wrapper_flex">
+                    <p class="p3_black">
+
+                        После прохождения такой проверки, наш специалист выносит вердикт по следующим вопросам:
+                        <br><br>
+
+                    </p>
+                    <div class="subservice_task_left subservice_task_left_new">
+                        <div class="subservice_task_item subservice_task_item_dot before_dot_color_pink2 margin_bottom_20">
+                            Шаблонный материал без персонализации клиента
+                            (бланки из Интернета не только не приведут к покупке,
+                            но и негативно отразятся на общем имидже компании).
+                        </div>
+                        <div class="subservice_task_item subservice_task_item_dot before_dot_color_pink2 margin_bottom_20">
+                            Отсутствие визуализации: изображений, схем, графиков.
+                        </div>
+                        <div class="subservice_task_item subservice_task_item_dot before_dot_color_pink2 margin_bottom_20">
+                            Переизбыток информации, длина не должна превышать
+                            2 листов.
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="opencart_rules_logo">
+                <img src="http://test.loc/wp-content/themes/WebFocus%20-%20Krasnodar/assets/img/png/gradient34.png" alt="" class="opencart_rules_logo_img">
+                <img src="http://test.loc/wp-content/themes/WebFocus%20-%20Krasnodar/assets/img/png/gradient34-1090.png" alt="" class="opencart_rules_logo_img">
+                <img src="http://test.loc/wp-content/themes/WebFocus%20-%20Krasnodar/assets/img/png/gradient34-768.png" alt="" class="opencart_rules_logo_img">
+                <img src="http://test.loc/wp-content/themes/WebFocus%20-%20Krasnodar/assets/img/png/gradient34-375.png" alt="" class="opencart_rules_logo_img">
+
+            </div>
+
+
+
         </div>
     </div>
 </section>
@@ -218,69 +264,55 @@ get_header();
 <!--reviews -->
 <?php get_template_part('modules/reviews'); ?>
 
-<section class="subservice_rules padding_bottom_130 padding_top_130 personal_site_rules_media subservice_rules_correction">
+<section class="product__list intro intro_subservice padding_bottom_150 padding_top_130 bitrix_media">
     <div class="container">
-        <p class="product__list-subtitle p2_black">предложение</p>
-        <h2 class="subservice_task-title padding_title_60_40 h2_black padding_top_10 line_height_61 subservice_task-title_one">Что мы можем сделать для Вас?
+        <p class="intro__subtitle subtitle p2_white">выгода</p>
+        <h2 class="intro__title h2_grad padding_title_60  padding_top_10 width_1139 width_590_768">Что дает аудит
         </h2>
-        <div class="personal_site_wrapper_media">
-            <div class="personal_site_wrapper_media_block">
-                <div class="subservice_rules_wrapper_flex">
-                    <div class="grad-line margin_right_20_500"></div>
-                    <div class="subservice_rules_wrapper_flex subservice_rules_wrapper_flex_max-width">
-                        <p class="col-text-2 padding_bottom_10 p3_black padding_18_1440">Если перед Вами стала проблема понижения популярности сайта, нет потока клиентов и конкуренты «наступают на пятки», решить эту проблему предельно просто – заказать аудит сайта в Краснодаре и Сочи. Сотрудничать с веб-студией теперь можно не только в Москве, где компания зарекомендовала себя на рынке рекламы, компания растет, а вместе с ней и сфера деятельности, теперь мы работаем и в Краснодарском крае.
+        <div class="intro__wrapper visible">
+            <div class="intro__text_block-two intro__text_block-two_subservice">
+                <div class="intro__text_item margin_bottom_60 ">
+                    <div class="intro__text_item-wrapper">
+                        <div class="intro__text-bullet-1 intro__text-bullet-1_subservice aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in" data-aos-delay="0" data-aos-offset="0">
+                            <img src="http://test.loc/wp-content/themes/WebFocus%20-%20Krasnodar/assets/img/svg/dots-1.svg" alt="" class="intro__dots">
+                        </div>
+                        <p class="h3_grad padding_bottom_20 text_underline color_rules_one">Комплексная проверка.
                         </p>
+                        <div class="intro__text-progress margin_bottom_20">
+                            <progress class="progress-min" value="61" max="60">
+                                <span class="percent-min">100</span>%
+                            </progress>
+                        </div>
+                        <p class="p3_white">Вы узнаете какие позиции стоит откорректировать, чтобы быть конкурентоспособным.</p>
                     </div>
                 </div>
-                <div class='personal_site_rules_logo'>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/png/gradient43.png" alt="" class='personal_site_rules_logo_img'>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/png/gradient43-1090.png" alt="" class='personal_site_rules_logo_img'>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/png/gradient43-768.png" alt="" class='personal_site_rules_logo_img'>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/png/gradient43-375.png" alt="" class='personal_site_rules_logo_img'>
-                </div>
-            </div>
-            <div class="personal_site_wrapper_media_block">
-                <div class='personal_site_rules_logo'>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/png/gradient42.png" alt="" class='personal_site_rules_logo_img'>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/png/gradient42-1090.png" alt="" class='personal_site_rules_logo_img'>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/png/gradient42-768.png" alt="" class='personal_site_rules_logo_img'>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/png/gradient42-375.png" alt="" class='personal_site_rules_logo_img'>
-                </div>
-                <div class="subservice_rules_wrapper_flex">
-                    <div class="grad-line margin_right_20_500"></div>
-                    <div class="subservice_rules_wrapper_flex subservice_rules_wrapper_flex_max-width">
-
-                        <p class="col-text-2 padding_bottom_10 p3_black padding_18_1440">Интернет-агентство «Веб Фокус» предоставит услуги аудита на высшем уровне. Специалисты компании помогут понять и выявить основные причины того, почему появились проблемы с продвижением коммерческих запросов. Подробно изучив семантику бизнеса, сильные и слабые стороны, составляется четкий план действий, который поможет улучшить показатели лояльности потребителей и в разы повысить конкурентоспособность компании.
-                        </p>
+                <div class="intro__text_item margin_bottom_60">
+                    <div class="intro__text_item-wrapper">
+                        <div class="intro__text-bullet-2 aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in" data-aos-delay="400" data-aos-offset="0">
+                            <img src="http://test.loc/wp-content/themes/WebFocus%20-%20Krasnodar/assets/img/svg/dots-2.svg" alt="" class="intro__dots">
+                        </div>
+                        <p class="h3_grad padding_bottom_20 text_underline color_rules_two">Рекомендации по улучшению.</p>
+                        <div class="intro__text-progress margin_bottom_20">
+                            <progress class="progress-min" value="61" max="60">
+                                <span class="percent-min">100</span>%
+                            </progress>
+                        </div>
+                        <p class="p3_white">Специалисты разработают пошаговый план того, как исправить ошибки и увеличить продажи.</p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="preview padding_bottom_150 padding_top_130 padding_top_114_1440">
-    <div class="container container_one_500">
-        <p class="preview__subtitle padding_bottom_10 p2_white">выбор
-        </p>
-        <h2 class="preview__title padding_title_60 h2_grad preview__title_subservice">Почему именно мы?
-        </h2>
-        <div class="preview__block padding_52_1440">
-            <div class="text__wrapper">
-                <div class="preview__block_text preview__block_text-1">
-                    <div class="grad-line"></div>
-                    <div class="preview_display_block">
-                        <p class="col-text-2--p p3_white margin_30_768">Компания «Веб Фокус» строит прочный фундамент для развития компаний через интернет-рекламу. Путем длительного изучения рынка маркетинга, мы не перестаем искать и находить новые возможности в сфере digital. Все что Вам нужно – обратиться к нашим специалистам с вопросом, на который они однозначно найдут решение. Студия идет в ногу со временем и в курсе всех новинок в digital сфере, отчасти потому, что многие задаются нами.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="text__wrapper">
-                <div class="preview__block_text preview__block_text-1">
-                    <div class="grad-line"></div>
-                    <div class="preview_display_block">
-                        <p class="col-text-2--p p3_white margin_30_768">Молодая команда, состоящая из квалифицированных специалистов, направляет свою деятельность на процветание Вашего бизнеса. Для того чтобы не стоять на месте, а двигаться только вперед, прогрессивные аналитики и маркетологи продумывают новые стратегии продвижения и передают их в работу.
-                        </p>
+                <div class="intro__text_item margin_bottom_60">
+                    <div class="intro__text_item-wrapper">
+                        <div class="intro__text-bullet-3 aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in" data-aos-delay="800" data-aos-offset="0">
+                            <img src="http://test.loc/wp-content/themes/WebFocus%20-%20Krasnodar/assets/img/svg/dots-3.svg" alt="" class="intro__dots">
+                        </div>
+                        <p class="h3_grad padding_bottom_20 text_underline color_rules_three">Продвижение бренда.</p>
+                        <div class="intro__text-progress margin_bottom_20">
+                            <progress class="progress-min" value="61" max="60">
+                                <span class="percent-min">100</span>%
+                            </progress>
+                        </div>
+                        <p class="p3_white">Вы узнаете, какой стратегии продвижения нужно придерживаться.
+                            Мы оценим насколько оптимизированы для повышения рейтинга вашего по целевым ключевым запросам. Обращайтесь!</p>
                     </div>
                 </div>
             </div>
@@ -380,97 +412,10 @@ get_header();
     </div>
 </section>
 
-<section class="subservice_rules padding_bottom_130 padding_top_130 personal_site_rules_media subservice_rules_correction">
-    <div class="container">
-        <p class="product__list-subtitle p2_black">цены</p>
-        <h2 class="subservice_task-title padding_title_60_40 h2_black padding_top_10 line_height_61 subservice_task-title_one">Вопрос цены – не вопрос
-        </h2>
-        <div class="personal_site_wrapper_media">
-            <div class="personal_site_wrapper_media_block">
-                <div class="subservice_rules_wrapper_flex">
-                    <div class="grad-line margin_right_20_500"></div>
-                    <div class="subservice_rules_wrapper_flex subservice_rules_wrapper_flex_max-width">
-                        <p class="col-text-2 padding_bottom_10 p3_black padding_18_1440">После того как подписывается договор, вся наша деятельность направлена на продвижение Вашего бизнеса со всех сторон и на всех этапах. Не возникает никаких проблем, если за дело берутся профессионалы.
-                        </p>
-                    </div>
-                </div>
-                <div class='personal_site_rules_logo'>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/png/gradient45.png" alt="" class='personal_site_rules_logo_img'>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/png/gradient45-1090.png" alt="" class='personal_site_rules_logo_img'>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/png/gradient45-768.png" alt="" class='personal_site_rules_logo_img'>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/png/gradient45-375.png" alt="" class='personal_site_rules_logo_img'>
-                </div>
-            </div>
-            <div class="personal_site_wrapper_media_block">
-                <div class='personal_site_rules_logo'>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/png/gradient44.png" alt="" class='personal_site_rules_logo_img'>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/png/gradient44-1090.png" alt="" class='personal_site_rules_logo_img'>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/png/gradient44-768.png" alt="" class='personal_site_rules_logo_img'>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/png/gradient44-375.png" alt="" class='personal_site_rules_logo_img'>
-                </div>
-                <div class="subservice_rules_wrapper_flex">
-                    <div class="grad-line margin_right_20_500"></div>
-                    <div class="subservice_rules_wrapper_flex subservice_rules_wrapper_flex_max-width">
-                        <p class="col-text-2 padding_bottom_10 p3_black padding_18_1440">Если Вы не разбираетесь в маркетинге, мы не будем пытаться еще больше ввести Вас в заблуждение. Нашей приоритетной задачей становится объяснение на доступном и понятном для Вас языке того, чем будет эффективна услуга и какой результат она принесет.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<!--Slider -->
-<?php get_template_part('modules/slider'); ?>
-
 <!--form_two -->
 <?php get_template_part('modules/form_two'); ?>
 
-<section class="subservice_rules padding_bottom_130 padding_top_130 personal_site_rules_media subservice_rules_correction">
-    <div class="container">
-        <p class="product__list-subtitle p2_black">почему мы</p>
-        <h2 class="subservice_task-title padding_title_60_40 h2_black padding_top_10 line_height_61 subservice_task-title_one">Обгоните конкурентов: поможет seo-продвижение сайтов
-        </h2>
-        <div class="personal_site_wrapper_media">
-            <div class="personal_site_wrapper_media_block">
-                <div class="subservice_rules_wrapper_flex">
-                    <div class="grad-line margin_right_20_500"></div>
-                    <div class="subservice_rules_wrapper_flex subservice_rules_wrapper_flex_max-width">
-                        <p class="col-text-2 padding_bottom_10 p3_black padding_18_1440">На этом этапе работы самое главное – ненавязчивость, это позволит безболезненно выйти из «раковины» и избежать попадания под разнообразные фильтры.
-
-                            <br><br>
-                            Заказывая продвижение молодого сайта и создание нового в компании «Веб Фокус», у Вас появляются все шансы победить конкурентов и вывести свой бизнес на новый, международный уровень. Одно дело создать сайт или аккаунт в социальных сетях, другое, заниматься им постоянно, совершенствовать его и с помощью контента знакомить пользователей со своим бизнесом.
-
-                        </p>
-                    </div>
-                </div>
-                <div class='personal_site_rules_logo'>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/png/gradient47.png" alt="" class='personal_site_rules_logo_img'>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/png/gradient47-1090.png" alt="" class='personal_site_rules_logo_img'>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/png/gradient47-768.png" alt="" class='personal_site_rules_logo_img'>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/png/gradient47-375.png" alt="" class='personal_site_rules_logo_img'>
-                </div>
-            </div>
-            <div class="personal_site_wrapper_media_block">
-                <div class='personal_site_rules_logo'>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/png/gradient46.png" alt="" class='personal_site_rules_logo_img'>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/png/gradient46-1090.png" alt="" class='personal_site_rules_logo_img'>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/png/gradient46-768.png" alt="" class='personal_site_rules_logo_img'>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/png/gradient46-375.png" alt="" class='personal_site_rules_logo_img'>
-                </div>
-                <div class="subservice_rules_wrapper_flex">
-                    <div class="grad-line margin_right_20_500"></div>
-                    <div class="subservice_rules_wrapper_flex subservice_rules_wrapper_flex_max-width">
-
-                        <p class="col-text-2 padding_bottom_10 p3_black padding_18_1440">Поисковые системы всегда предъявляют высокие требования и обращают внимание только на качественные сайты с высоким уровнем информативности и клиентоориентированности. Так же осторожность и недоверие распространяется на молодые или новые сайты для того, чтобы укрепиться на платформе, нужно постоянно работать над проектом, совершенствуя его. <br><br>
-                            Вся работа компании направлена на то, чтобы сайт «заслужил» доверие ПС. Для повышения репутации молодого или нового сайта важно начать вести блог с новостями компании, мнениями экспертов по тематике Вашего проекта, все это необходимо проводить 1-2 раза в неделю.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<!--Slider -->
+<?php get_template_part('modules/slider'); ?>
 
 <?php get_footer() ?>
